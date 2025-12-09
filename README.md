@@ -13,3 +13,7 @@ Connects through SSH to the plug, configures it to be on the wifi network specif
 2. Edit `setup/install.sh` with any commands you want to run on the first reboot.
 3. Connect to the Kankun plug's wifi access point. This should be `0K_SP3`
 4. Run the script using `node index.js` and answer the prompts or using `node index.js --ssid=<<network ssid>> --key=<<network key>>` to skip the prompts
+
+## See also
+* [Kankun KK-SP3: Complete Guide](https://github.com/yurt-page/Kankun_KK-SP3) 
+* https://github.com/homedash/kankun-manager a full installer and configurer with Ansible
